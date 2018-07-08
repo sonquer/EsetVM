@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Core">
+      <UniqueIdentifier>{e57e4d1f-a977-47df-8cbc-389cddcc4035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Core">
+      <UniqueIdentifier>{3c583d85-3945-47fe-8f1d-600ccd682445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Core\Utils">
+      <UniqueIdentifier>{dbad3177-85ae-4eec-bba0-f3ee4bf022d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Core\Utils">
+      <UniqueIdentifier>{c9260722-d872-451a-88e0-c17b0b936155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Helpers">
+      <UniqueIdentifier>{5d2d280b-8f97-4e11-b634-3d9bd0d6c577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Core\Utils\Enums">
+      <UniqueIdentifier>{33370a9b-2f51-4ad3-881d-750eb2af6d32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="VMCore.h">
+      <Filter>Pliki nagłówkowe\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayComparer.h">
+      <Filter>Pliki nagłówkowe\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Pliki nagłówkowe\Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures.h">
+      <Filter>Pliki nagłówkowe\Core\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Pliki nagłówkowe\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Instructions.h">
+      <Filter>Pliki nagłówkowe\Core\Utils\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAccessSize.h">
+      <Filter>Pliki nagłówkowe\Core\Utils\Enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="EsetVM.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="VMCore.cpp">
+      <Filter>Pliki źródłowe\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>Pliki źródłowe\Core\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Pliki źródłowe\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
